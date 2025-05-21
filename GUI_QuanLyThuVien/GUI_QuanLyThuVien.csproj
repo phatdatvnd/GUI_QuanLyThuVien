@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Guna.UI2.WinForms" Version="2.0.4.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BLL_QuanLyThuVien\BLL_QuanLyThuVien.csproj" />
+    <ProjectReference Include="..\DTO_QuanLyThuVien\DTO_QuanLyThuVien.csproj" />
+    <ProjectReference Include="..\Util_QuanLyThuVien\Util_QuanLyThuVien.csproj" />
+  </ItemGroup>
+
+</Project>

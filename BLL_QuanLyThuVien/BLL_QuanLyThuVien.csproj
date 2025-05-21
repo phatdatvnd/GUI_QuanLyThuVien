@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DAL_QuanLyThuVien\DAL_QuanLyThuVien.csproj" />
+    <ProjectReference Include="..\DTO_QuanLyThuVien\DTO_QuanLyThuVien.csproj" />
+  </ItemGroup>
+
+</Project>
