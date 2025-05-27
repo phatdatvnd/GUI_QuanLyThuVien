@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\DAL_QuanLyThuVien\DAL_QuanLyThuVien.csproj" />
     <ProjectReference Include="..\DTO_QuanLyThuVien\DTO_QuanLyThuVien.csproj" />
   </ItemGroup>
