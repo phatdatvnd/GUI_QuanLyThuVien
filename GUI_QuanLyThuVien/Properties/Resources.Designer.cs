@@ -83,6 +83,16 @@ namespace GUI_QuanLyThuVien.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icon_search {
+            get {
+                object obj = ResourceManager.GetObject("icon search", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap iconuser {
             get {
                 object obj = ResourceManager.GetObject("iconuser", resourceCulture);
