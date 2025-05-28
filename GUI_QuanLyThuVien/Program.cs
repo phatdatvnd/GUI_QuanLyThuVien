@@ -10,7 +10,7 @@ namespace GUI_QuanLyThuVien
         {
            
             ApplicationConfiguration.Initialize();
-            Application.Run(new frmdangnhap());
+            Application.Run(new Frmlogin());
 
         }
     }

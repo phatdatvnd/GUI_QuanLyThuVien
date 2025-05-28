@@ -1,4 +1,5 @@
 ﻿using DTO_QuanLyThuVien;
+using Microsoft.Data.SqlClient;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -32,7 +33,7 @@ namespace DAL_QuanLyThuVien
                 {
                     NhanVien nv = new NhanVien();
                     nv.MaNhanVien = reader["MaNhanVien"].ToString();
-                    nv.HoTen = reader["HoTen"].ToString();
+                    nv.HoTen = reader["Ten"].ToString();
                     nv.Email = reader["Email"].ToString();
                     nv.MatKhau = reader["MatKhau"].ToString();
                     nv.VaiTro = bool.Parse(reader["VaiTro"].ToString());
