@@ -10,11 +10,13 @@ using System.Windows.Forms;
 
 namespace GUI_QuanLyThuVien
 {
-    public partial class frmQuanyLyNhanVien : Form
+    public partial class frmQuanlySach : Form
     {
-        public frmQuanyLyNhanVien()
+        public frmQuanlySach()
         {
             InitializeComponent();
         }
+
+        
     }
 }

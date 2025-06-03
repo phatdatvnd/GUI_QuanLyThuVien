@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Util_QuanLyThuVien
 {
-    internal class AuthUtil
+    public class AuthUtil
     {
         public static NhanVien user = null;
         public static bool IsLogin()

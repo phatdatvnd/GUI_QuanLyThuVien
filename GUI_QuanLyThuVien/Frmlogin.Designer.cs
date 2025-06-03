@@ -51,6 +51,8 @@
             btnthoat = new Guna.UI2.WinForms.Guna2GradientButton();
             label1 = new Label();
             pictureBox2 = new PictureBox();
+            guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(components);
+            guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(components);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
@@ -71,7 +73,7 @@
             pictureBox1.Image = Properties.Resources.Screenshot_2025_05_23_162244;
             pictureBox1.Location = new Point(0, 0);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(464, 537);
+            pictureBox1.Size = new Size(452, 519);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -205,12 +207,21 @@
             pictureBox2.TabIndex = 8;
             pictureBox2.TabStop = false;
             // 
+            // guna2AnimateWindow1
+            // 
+            guna2AnimateWindow1.TargetForm = this;
+            // 
+            // guna2DragControl1
+            // 
+            guna2DragControl1.DockIndicatorTransparencyValue = 0.6D;
+            guna2DragControl1.UseTransparentDrag = true;
+            // 
             // Frmlogin
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
-            ClientSize = new Size(979, 537);
+            ClientSize = new Size(974, 519);
             Controls.Add(pictureBox2);
             Controls.Add(label1);
             Controls.Add(btnthoat);
@@ -221,6 +232,8 @@
             Controls.Add(txtnguoidung);
             Controls.Add(pictureBox1);
             FormBorderStyle = FormBorderStyle.None;
+            MaximumSize = new Size(974, 519);
+            MinimumSize = new Size(974, 519);
             Name = "Frmlogin";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "x`";
@@ -243,5 +256,7 @@
         private PictureBox pictureBox2;
         private Label label1;
         private Guna.UI2.WinForms.Guna2GradientButton btnthoat;
+        private Guna.UI2.WinForms.Guna2AnimateWindow guna2AnimateWindow1;
+        private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
     }
 }
