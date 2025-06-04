@@ -33,11 +33,6 @@ namespace GUI_QuanLyThuVien
             formChild.Show();
         }
 
-        private void btTrangChu_Click(object sender, EventArgs e)
-        {
-           openChilForm(new frmmain());
-        }
-
         private void btQuanLySach_Click(object sender, EventArgs e)
         {
             openChilForm(new frmQuanlySach());

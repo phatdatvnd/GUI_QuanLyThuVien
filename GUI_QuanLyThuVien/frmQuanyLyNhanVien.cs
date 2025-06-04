@@ -70,6 +70,14 @@ namespace GUI_QuanLyThuVien
 
         private void btThemNhanVien_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(txtHoVaTen.Text) ||
+             string.IsNullOrWhiteSpace(txtEmail.Text) ||
+             string.IsNullOrWhiteSpace(txtMatKhau.Text) ||
+            string.IsNullOrWhiteSpace(txtSoDienThoai.Text))
+            {
+                MessageBox.Show("Vui lòng nhập đầy đủ thông tin nhân viên!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
             NhanVien nv = new NhanVien
             {
                 Ten = txtHoVaTen.Text,
@@ -77,10 +85,11 @@ namespace GUI_QuanLyThuVien
                 MatKhau = txtMatKhau.Text,
                 SoDienThoai = txtSoDienThoai.Text,
                 VaiTro = rdbtquanly.Checked,
-                TrangThai = rdbthoatdong.Checked
+                TrangThai = rdbthoatdong.Checked,
+                NgayTao = DateTime.Now // Thêm ngày tạo 
             };
 
-            string result = bus.Insertnhanvien(nv);
+            string result = bus.InsertNhanVien(nv);
             if (string.IsNullOrEmpty(result))
             {
                 MessageBox.Show("Thêm nhân viên thành công!");
@@ -103,7 +112,8 @@ namespace GUI_QuanLyThuVien
                 MatKhau = txtMatKhau.Text,
                 SoDienThoai = txtSoDienThoai.Text,
                 VaiTro = rdbtquanly.Checked,
-                TrangThai = rdbthoatdong.Checked
+                TrangThai = rdbthoatdong.Checked,
+                NgayTao = DateTime.Now 
             };
 
             string result = bus.UpdateNhanVien(nv);
@@ -125,7 +135,7 @@ namespace GUI_QuanLyThuVien
             DialogResult confirm = MessageBox.Show("Ngài có chắc muốn xoá không?", "Xác nhận", MessageBoxButtons.YesNo);
             if (confirm == DialogResult.Yes)
             {
-                string result = bus.xoaNhanvien(maNV);
+                string result = bus.XoaNhanVien(maNV);
                 if (string.IsNullOrEmpty(result))
                 {
                     MessageBox.Show("Xóa nhân viên thành công!");
@@ -162,8 +172,10 @@ namespace GUI_QuanLyThuVien
             txtEmail.Clear();
             txtMatKhau.Clear();
             txtSoDienThoai.Clear();
+
             rdbtquanly.Checked = false;
             rdbthoatdong.Checked = true;
+            rdbtngunghoatdong.Checked = false;
         }
 
         private void dtgvnhanvien_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -177,6 +189,8 @@ namespace GUI_QuanLyThuVien
                 txtSoDienThoai.Text = nv.SoDienThoai;
                 rdbtquanly.Checked = nv.VaiTro;
                 rdbthoatdong.Checked = nv.TrangThai;
+                rdbtngunghoatdong.Checked = !nv.TrangThai;
+                dtpNgayTao.Value = nv.NgayTao;
             }
         }
 
@@ -192,18 +206,31 @@ namespace GUI_QuanLyThuVien
         {
             if (dtgvnhanvien.Columns[e.ColumnIndex].Name == "VaiTro" && e.Value != null)
             {
-                string vaiTroValue = e.Value.ToString().ToLower();
-                e.Value = vaiTroValue == "1" || vaiTroValue == "true" ? "Quản Lý" : "Nhân Viên";
-                e.FormattingApplied = true;
+                if (e.Value is bool vaiTro)
+                {
+                    e.Value = vaiTro ? "Quản Lý" : "Nhân Viên";
+                    e.FormattingApplied = true;
+                }
+                else if (e.Value is int intVaiTro)
+                {
+                    e.Value = intVaiTro == 1 ? "Quản Lý" : "Nhân Viên";
+                    e.FormattingApplied = true;
+                }
             }
             else if (dtgvnhanvien.Columns[e.ColumnIndex].Name == "TrangThai" && e.Value != null)
             {
-                string trangThaiValue = e.Value.ToString().ToLower();
-                e.Value = trangThaiValue == "1" || trangThaiValue == "true" ? "Hoạt Động" : "Ngưng Hoạt Động";
-                e.FormattingApplied = true;
+                if (e.Value is bool trangThai)
+                {
+                    e.Value = trangThai ? "Hoạt Động" : "Ngưng Hoạt Động";
+                    e.FormattingApplied = true;
+                }
+                else if (e.Value is int intTrangThai)
+                {
+                    e.Value = intTrangThai == 1 ? "Hoạt Động" : "Ngưng Hoạt Động";
+                    e.FormattingApplied = true;
+                }
             }
         }
-
         
     }
 }

@@ -373,7 +373,7 @@
             guna2GradientPanel1.Margin = new Padding(3, 2, 3, 2);
             guna2GradientPanel1.Name = "guna2GradientPanel1";
             guna2GradientPanel1.ShadowDecoration.CustomizableEdges = customizableEdges28;
-            guna2GradientPanel1.Size = new Size(1043, 679);
+            guna2GradientPanel1.Size = new Size(1081, 688);
             guna2GradientPanel1.TabIndex = 11;
             // 
             // panel2
@@ -455,7 +455,7 @@
             guna2GroupBox1.Location = new Point(118, 384);
             guna2GroupBox1.Name = "guna2GroupBox1";
             guna2GroupBox1.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            guna2GroupBox1.Size = new Size(861, 292);
+            guna2GroupBox1.Size = new Size(838, 292);
             guna2GroupBox1.TabIndex = 71;
             guna2GroupBox1.Text = "Danh sách";
             // 
@@ -494,7 +494,7 @@
             dataGridViewCellStyle4.WrapMode = DataGridViewTriState.True;
             dtgvnhanvien.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             dtgvnhanvien.RowHeadersVisible = false;
-            dtgvnhanvien.Size = new Size(861, 252);
+            dtgvnhanvien.Size = new Size(838, 252);
             dtgvnhanvien.TabIndex = 0;
             dtgvnhanvien.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
             dtgvnhanvien.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -661,7 +661,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(1038, 674);
+            ClientSize = new Size(1081, 680);
             Controls.Add(guna2GradientPanel1);
             FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(3, 2, 3, 2);

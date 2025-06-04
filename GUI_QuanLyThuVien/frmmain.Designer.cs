@@ -42,12 +42,11 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmmain));
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             btDoiMatKhau = new Guna.UI2.WinForms.Guna2GradientButton();
             btThongKeDoanhThu = new Guna.UI2.WinForms.Guna2GradientButton();
             btQuanLyMuonTraSach = new Guna.UI2.WinForms.Guna2GradientButton();
@@ -55,7 +54,6 @@
             btQuanLyKhachHang = new Guna.UI2.WinForms.Guna2GradientButton();
             btQuanLySach = new Guna.UI2.WinForms.Guna2GradientButton();
             guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
-            btTrangChu = new Guna.UI2.WinForms.Guna2GradientButton();
             guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
             panelmain = new Panel();
             btnthoat = new Guna.UI2.WinForms.Guna2GradientButton();
@@ -74,11 +72,11 @@
             btDoiMatKhau.FillColor2 = Color.DeepSkyBlue;
             btDoiMatKhau.Font = new Font("Segoe UI", 9F);
             btDoiMatKhau.ForeColor = Color.White;
-            btDoiMatKhau.Location = new Point(21, 510);
+            btDoiMatKhau.Location = new Point(24, 441);
             btDoiMatKhau.Margin = new Padding(3, 2, 3, 2);
             btDoiMatKhau.Name = "btDoiMatKhau";
             btDoiMatKhau.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            btDoiMatKhau.Size = new Size(197, 42);
+            btDoiMatKhau.Size = new Size(158, 42);
             btDoiMatKhau.TabIndex = 12;
             btDoiMatKhau.Text = "Đổi mật khẩu";
             // 
@@ -93,11 +91,11 @@
             btThongKeDoanhThu.FillColor2 = Color.DeepSkyBlue;
             btThongKeDoanhThu.Font = new Font("Segoe UI", 9F);
             btThongKeDoanhThu.ForeColor = Color.White;
-            btThongKeDoanhThu.Location = new Point(21, 457);
+            btThongKeDoanhThu.Location = new Point(24, 388);
             btThongKeDoanhThu.Margin = new Padding(3, 2, 3, 2);
             btThongKeDoanhThu.Name = "btThongKeDoanhThu";
             btThongKeDoanhThu.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            btThongKeDoanhThu.Size = new Size(197, 42);
+            btThongKeDoanhThu.Size = new Size(158, 42);
             btThongKeDoanhThu.TabIndex = 13;
             btThongKeDoanhThu.Text = "Thống kê doanh thu";
             // 
@@ -112,11 +110,11 @@
             btQuanLyMuonTraSach.FillColor2 = Color.DeepSkyBlue;
             btQuanLyMuonTraSach.Font = new Font("Segoe UI", 9F);
             btQuanLyMuonTraSach.ForeColor = Color.White;
-            btQuanLyMuonTraSach.Location = new Point(21, 403);
+            btQuanLyMuonTraSach.Location = new Point(24, 334);
             btQuanLyMuonTraSach.Margin = new Padding(3, 2, 3, 2);
             btQuanLyMuonTraSach.Name = "btQuanLyMuonTraSach";
             btQuanLyMuonTraSach.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            btQuanLyMuonTraSach.Size = new Size(197, 42);
+            btQuanLyMuonTraSach.Size = new Size(158, 42);
             btQuanLyMuonTraSach.TabIndex = 11;
             btQuanLyMuonTraSach.Text = "Quản lý mượn trả sách";
             // 
@@ -131,11 +129,11 @@
             btQuanLyNhanVien.FillColor2 = Color.DeepSkyBlue;
             btQuanLyNhanVien.Font = new Font("Segoe UI", 9F);
             btQuanLyNhanVien.ForeColor = Color.White;
-            btQuanLyNhanVien.Location = new Point(21, 351);
+            btQuanLyNhanVien.Location = new Point(24, 282);
             btQuanLyNhanVien.Margin = new Padding(3, 2, 3, 2);
             btQuanLyNhanVien.Name = "btQuanLyNhanVien";
             btQuanLyNhanVien.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            btQuanLyNhanVien.Size = new Size(197, 42);
+            btQuanLyNhanVien.Size = new Size(158, 42);
             btQuanLyNhanVien.TabIndex = 12;
             btQuanLyNhanVien.Text = "Quản lý nhân viên";
             btQuanLyNhanVien.Click += btQuanLyNhanVien_Click;
@@ -151,11 +149,11 @@
             btQuanLyKhachHang.FillColor2 = Color.DeepSkyBlue;
             btQuanLyKhachHang.Font = new Font("Segoe UI", 9F);
             btQuanLyKhachHang.ForeColor = Color.White;
-            btQuanLyKhachHang.Location = new Point(21, 297);
+            btQuanLyKhachHang.Location = new Point(24, 228);
             btQuanLyKhachHang.Margin = new Padding(3, 2, 3, 2);
             btQuanLyKhachHang.Name = "btQuanLyKhachHang";
             btQuanLyKhachHang.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            btQuanLyKhachHang.Size = new Size(197, 42);
+            btQuanLyKhachHang.Size = new Size(158, 42);
             btQuanLyKhachHang.TabIndex = 11;
             btQuanLyKhachHang.Text = "Quản lý khách hàng";
             // 
@@ -170,23 +168,24 @@
             btQuanLySach.FillColor2 = Color.DeepSkyBlue;
             btQuanLySach.Font = new Font("Segoe UI", 9F);
             btQuanLySach.ForeColor = Color.White;
-            btQuanLySach.Location = new Point(21, 246);
+            btQuanLySach.Location = new Point(24, 177);
             btQuanLySach.Margin = new Padding(3, 2, 3, 2);
             btQuanLySach.Name = "btQuanLySach";
             btQuanLySach.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            btQuanLySach.Size = new Size(197, 42);
+            btQuanLySach.Size = new Size(158, 42);
             btQuanLySach.TabIndex = 10;
             btQuanLySach.Text = "Quản lý sách";
             btQuanLySach.Click += btQuanLySach_Click;
             // 
             // guna2ImageButton1
             // 
+            guna2ImageButton1.BackColor = Color.Transparent;
             guna2ImageButton1.CheckedState.ImageSize = new Size(64, 64);
             guna2ImageButton1.HoverState.ImageSize = new Size(64, 64);
             guna2ImageButton1.Image = Properties.Resources.logo1;
             guna2ImageButton1.ImageOffset = new Point(0, 0);
             guna2ImageButton1.ImageRotate = 0F;
-            guna2ImageButton1.Location = new Point(24, 2);
+            guna2ImageButton1.Location = new Point(0, 2);
             guna2ImageButton1.Margin = new Padding(3, 2, 3, 2);
             guna2ImageButton1.Name = "guna2ImageButton1";
             guna2ImageButton1.PressedState.ImageSize = new Size(64, 64);
@@ -194,31 +193,10 @@
             guna2ImageButton1.Size = new Size(197, 171);
             guna2ImageButton1.TabIndex = 0;
             // 
-            // btTrangChu
-            // 
-            btTrangChu.CustomizableEdges = customizableEdges14;
-            btTrangChu.DisabledState.BorderColor = Color.DarkGray;
-            btTrangChu.DisabledState.CustomBorderColor = Color.DarkGray;
-            btTrangChu.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            btTrangChu.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
-            btTrangChu.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btTrangChu.FillColor2 = Color.DeepSkyBlue;
-            btTrangChu.Font = new Font("Segoe UI", 9F);
-            btTrangChu.ForeColor = Color.White;
-            btTrangChu.Location = new Point(21, 192);
-            btTrangChu.Margin = new Padding(3, 2, 3, 2);
-            btTrangChu.Name = "btTrangChu";
-            btTrangChu.ShadowDecoration.CustomizableEdges = customizableEdges15;
-            btTrangChu.Size = new Size(197, 42);
-            btTrangChu.TabIndex = 9;
-            btTrangChu.Text = "Trang chủ";
-            btTrangChu.Click += btTrangChu_Click;
-            // 
             // guna2GradientPanel1
             // 
             guna2GradientPanel1.BackColor = Color.Transparent;
             guna2GradientPanel1.BackgroundImage = Properties.Resources.hinhnenmainchinh;
-            guna2GradientPanel1.BackgroundImageLayout = ImageLayout.Stretch;
             guna2GradientPanel1.Controls.Add(panelmain);
             guna2GradientPanel1.Controls.Add(btnthoat);
             guna2GradientPanel1.Controls.Add(btDoiMatKhau);
@@ -228,26 +206,27 @@
             guna2GradientPanel1.Controls.Add(btQuanLyKhachHang);
             guna2GradientPanel1.Controls.Add(btQuanLySach);
             guna2GradientPanel1.Controls.Add(guna2ImageButton1);
-            guna2GradientPanel1.Controls.Add(btTrangChu);
-            guna2GradientPanel1.CustomizableEdges = customizableEdges18;
+            guna2GradientPanel1.CustomizableEdges = customizableEdges16;
             guna2GradientPanel1.Location = new Point(-2, -3);
             guna2GradientPanel1.Margin = new Padding(3, 2, 3, 2);
             guna2GradientPanel1.Name = "guna2GradientPanel1";
-            guna2GradientPanel1.ShadowDecoration.CustomizableEdges = customizableEdges19;
-            guna2GradientPanel1.Size = new Size(1272, 680);
+            guna2GradientPanel1.ShadowDecoration.CustomizableEdges = customizableEdges17;
+            guna2GradientPanel1.Size = new Size(1281, 680);
             guna2GradientPanel1.TabIndex = 11;
             // 
             // panelmain
             // 
             panelmain.BackColor = Color.Transparent;
-            panelmain.Location = new Point(224, 0);
+            panelmain.BackgroundImage = (Image)resources.GetObject("panelmain.BackgroundImage");
+            panelmain.BackgroundImageLayout = ImageLayout.Stretch;
+            panelmain.Location = new Point(188, 0);
             panelmain.Name = "panelmain";
-            panelmain.Size = new Size(1038, 680);
+            panelmain.Size = new Size(1081, 680);
             panelmain.TabIndex = 74;
             // 
             // btnthoat
             // 
-            btnthoat.CustomizableEdges = customizableEdges16;
+            btnthoat.CustomizableEdges = customizableEdges14;
             btnthoat.DisabledState.BorderColor = Color.DarkGray;
             btnthoat.DisabledState.CustomBorderColor = Color.DarkGray;
             btnthoat.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -256,11 +235,11 @@
             btnthoat.FillColor2 = Color.DeepSkyBlue;
             btnthoat.Font = new Font("Segoe UI", 9F);
             btnthoat.ForeColor = Color.White;
-            btnthoat.Location = new Point(21, 565);
+            btnthoat.Location = new Point(24, 496);
             btnthoat.Margin = new Padding(3, 2, 3, 2);
             btnthoat.Name = "btnthoat";
-            btnthoat.ShadowDecoration.CustomizableEdges = customizableEdges17;
-            btnthoat.Size = new Size(197, 42);
+            btnthoat.ShadowDecoration.CustomizableEdges = customizableEdges15;
+            btnthoat.Size = new Size(158, 42);
             btnthoat.TabIndex = 73;
             btnthoat.Text = "Thoát";
             btnthoat.Click += btnthoat_Click;
@@ -296,7 +275,6 @@
         private Guna.UI2.WinForms.Guna2GradientButton btQuanLyKhachHang;
         private Guna.UI2.WinForms.Guna2GradientButton btQuanLySach;
         private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton1;
-        private Guna.UI2.WinForms.Guna2GradientButton btTrangChu;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel1;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private Guna.UI2.WinForms.Guna2GradientButton btnthoat;
