@@ -24,9 +24,49 @@ namespace GUI_QuanLyThuVien
         }
         private void LoadDSNhanVien()
         {
-            dtgvnhanvien.DataSource = null;
-            dtgvnhanvien.DataSource = bus.GetNhanViens();
+            var list = bus.GetNhanViens();
+            if (list == null || list.Count == 0)
+            {
+                MessageBox.Show("Không có dữ liệu nhân viên để hiển thị!");
+                dtgvnhanvien.DataSource = null;
+                return;
+            }
+
+            dtgvnhanvien.AutoGenerateColumns = false;
+            dtgvnhanvien.Columns.Clear();
+
+            dtgvnhanvien.Columns.Add("MaNhanVien", "Mã nhân viên");
+            dtgvnhanvien.Columns.Add("Ten", "Họ và tên");
+            dtgvnhanvien.Columns.Add("Email", "Email");
+            dtgvnhanvien.Columns.Add("MatKhau", "Mật khẩu");
+            dtgvnhanvien.Columns.Add("SoDienThoai", "SĐT");
+            dtgvnhanvien.Columns.Add("VaiTro", "Vai trò");
+            dtgvnhanvien.Columns.Add("TrangThai", "Trạng thái");
+            dtgvnhanvien.Columns.Add("NgayTao", "Ngày tạo");
+
+            dtgvnhanvien.Columns["MaNhanVien"].DataPropertyName = "MaNhanVien";
+            dtgvnhanvien.Columns["Ten"].DataPropertyName = "Ten";
+            dtgvnhanvien.Columns["Email"].DataPropertyName = "Email";
+            dtgvnhanvien.Columns["MatKhau"].DataPropertyName = "MatKhau";
+            dtgvnhanvien.Columns["SoDienThoai"].DataPropertyName = "SoDienThoai";
+            dtgvnhanvien.Columns["VaiTro"].DataPropertyName = "VaiTro";
+            dtgvnhanvien.Columns["TrangThai"].DataPropertyName = "TrangThai";
+            dtgvnhanvien.Columns["NgayTao"].DataPropertyName = "NgayTao";
+
+            dtgvnhanvien.DataSource = list;
+
+            // Tăng chiều cao của header
+            dtgvnhanvien.ColumnHeadersHeight = 30; // Điều chỉnh giá trị này (mặc định thường là 23)
+            dtgvnhanvien.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+
+            // Tùy chỉnh hiển thị cột VaiTro và TrangThai
+            dtgvnhanvien.CellFormatting += dtgvnhanvien_CellFormatting_1;
+
+            // Điều chỉnh kích thước cột
+            dtgvnhanvien.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
         }
+
+
 
         private void btThemNhanVien_Click(object sender, EventArgs e)
         {
@@ -147,5 +187,23 @@ namespace GUI_QuanLyThuVien
             dtgvnhanvien.DataSource = bus.GetNhanViens();
 
         }
+
+        private void dtgvnhanvien_CellFormatting_1(object sender, DataGridViewCellFormattingEventArgs e)
+        {
+            if (dtgvnhanvien.Columns[e.ColumnIndex].Name == "VaiTro" && e.Value != null)
+            {
+                string vaiTroValue = e.Value.ToString().ToLower();
+                e.Value = vaiTroValue == "1" || vaiTroValue == "true" ? "Quản Lý" : "Nhân Viên";
+                e.FormattingApplied = true;
+            }
+            else if (dtgvnhanvien.Columns[e.ColumnIndex].Name == "TrangThai" && e.Value != null)
+            {
+                string trangThaiValue = e.Value.ToString().ToLower();
+                e.Value = trangThaiValue == "1" || trangThaiValue == "true" ? "Hoạt Động" : "Ngưng Hoạt Động";
+                e.FormattingApplied = true;
+            }
+        }
+
+        
     }
 }

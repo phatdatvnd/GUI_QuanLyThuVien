@@ -82,7 +82,7 @@
             // 
             txtnguoidung.BackColor = SystemColors.ButtonHighlight;
             txtnguoidung.CustomizableEdges = customizableEdges9;
-            txtnguoidung.DefaultText = "Username";
+            txtnguoidung.DefaultText = "";
             txtnguoidung.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             txtnguoidung.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
             txtnguoidung.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
@@ -94,7 +94,7 @@
             txtnguoidung.Location = new Point(559, 188);
             txtnguoidung.Name = "txtnguoidung";
             txtnguoidung.PasswordChar = '\0';
-            txtnguoidung.PlaceholderText = "";
+            txtnguoidung.PlaceholderText = "Username";
             txtnguoidung.SelectedText = "";
             txtnguoidung.ShadowDecoration.CustomizableEdges = customizableEdges10;
             txtnguoidung.Size = new Size(337, 47);
@@ -104,7 +104,7 @@
             // 
             txtmatkhau.BackColor = SystemColors.ButtonHighlight;
             txtmatkhau.CustomizableEdges = customizableEdges7;
-            txtmatkhau.DefaultText = "Password";
+            txtmatkhau.DefaultText = "";
             txtmatkhau.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             txtmatkhau.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
             txtmatkhau.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
@@ -116,7 +116,7 @@
             txtmatkhau.Location = new Point(559, 267);
             txtmatkhau.Name = "txtmatkhau";
             txtmatkhau.PasswordChar = '\0';
-            txtmatkhau.PlaceholderText = "";
+            txtmatkhau.PlaceholderText = "Password";
             txtmatkhau.SelectedText = "";
             txtmatkhau.ShadowDecoration.CustomizableEdges = customizableEdges8;
             txtmatkhau.Size = new Size(337, 47);

@@ -23,26 +23,32 @@ namespace GUI_QuanLyThuVien
 
         private void btndangnhap_Click(object sender, EventArgs e)
         {
-            string username = txtnguoidung.Text;
+            string username = txtnguoidung.Text.Trim();
             string password = txtmatkhau.Text;
+
+            if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
+            {
+                MessageBox.Show(this, "Vui lòng nhập đầy đủ email và mật khẩu!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
             NhanVien nv = busnv.DangNhap(username, password);
+
             if (nv == null)
             {
-                MessageBox.Show(this, "Tài khoản hoặc mật khẩu không chính xác");
+                MessageBox.Show(this, "Tài khoản hoặc mật khẩu không chính xác", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
             }
-            else
-            {
-                if (nv.TrangThai == false)
-                {
-                    MessageBox.Show(this, "Tài khoản đang tạm khóa, vui lòng viên hệ QTV!!!");
-                    return;
-                }
-                AuthUtil.user = nv;
 
-                frmQuanyLyNhanVien mainchinh = new frmQuanyLyNhanVien();
-                mainchinh.Show();
-                this.Hide();
+            if (!nv.TrangThai)
+            {
+                MessageBox.Show(this, "Tài khoản đang bị khóa, vui lòng liên hệ quản trị viên!", "Tài khoản bị khóa", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
             }
+                AuthUtil.user = nv;
+                frmmain frmchinh = new frmmain();
+                frmchinh.Show();
+            this.Hide();
 
         }
 
