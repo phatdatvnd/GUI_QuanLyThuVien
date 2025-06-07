@@ -40,7 +40,7 @@ namespace GUI_QuanLyThuVien
 
         private void btQuanLyNhanVien_Click(object sender, EventArgs e)
         {
-           openChilForm(new frmQuanyLyNhanVien());
+            openChilForm(new frmQuanyLyNhanVien());
         }
 
         private void btnthoat_Click(object sender, EventArgs e)
@@ -49,8 +49,13 @@ namespace GUI_QuanLyThuVien
             if (result == DialogResult.Yes)
             {
                 Application.Exit();
-               
+
             }
+        }
+
+        private void btQuanLyKhachHang_Click(object sender, EventArgs e)
+        {
+            openChilForm(new frmkhachhang());
         }
     }
 }

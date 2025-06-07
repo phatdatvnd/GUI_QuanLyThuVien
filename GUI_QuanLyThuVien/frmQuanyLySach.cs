@@ -41,7 +41,8 @@ namespace GUI_QuanLyThuVien
 
             dtgvsach.DataSource = ds;
 
-            // Đảm bảo tiêu đề cột hiển thị
+            dtgvsach.ColumnHeadersHeight = 30; // Điều chỉnh giá trị này (mặc định thường là 23)
+            dtgvsach.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             dtgvsach.ColumnHeadersVisible = true;
 
             // Đặt font cho toàn bộ DataGridView

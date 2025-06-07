@@ -531,7 +531,7 @@
             txtTimKiem.AutoRoundedCorners = true;
             txtTimKiem.BorderRadius = 14;
             txtTimKiem.CustomizableEdges = customizableEdges19;
-            txtTimKiem.DefaultText = "Nhập văn bản...";
+            txtTimKiem.DefaultText = "";
             txtTimKiem.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             txtTimKiem.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
             txtTimKiem.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
@@ -543,7 +543,7 @@
             txtTimKiem.Location = new Point(167, 290);
             txtTimKiem.Name = "txtTimKiem";
             txtTimKiem.PasswordChar = '\0';
-            txtTimKiem.PlaceholderText = "";
+            txtTimKiem.PlaceholderText = "Nhập văn bản...";
             txtTimKiem.SelectedText = "";
             txtTimKiem.ShadowDecoration.CustomizableEdges = customizableEdges20;
             txtTimKiem.Size = new Size(499, 30);

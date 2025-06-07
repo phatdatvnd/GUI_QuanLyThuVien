@@ -156,6 +156,7 @@
             btQuanLyKhachHang.Size = new Size(158, 42);
             btQuanLyKhachHang.TabIndex = 11;
             btQuanLyKhachHang.Text = "Quản lý khách hàng";
+            btQuanLyKhachHang.Click += btQuanLyKhachHang_Click;
             // 
             // btQuanLySach
             // 
