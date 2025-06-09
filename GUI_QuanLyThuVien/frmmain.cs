@@ -57,5 +57,15 @@ namespace GUI_QuanLyThuVien
         {
             openChilForm(new frmkhachhang());
         }
+
+        private void btQuanLyMuonTraSach_Click(object sender, EventArgs e)
+        {
+            openChilForm(new frmMuonTraSach());
+        }
+
+        private void guna2GradientButton1_Click(object sender, EventArgs e)
+        {
+            openChilForm(new frmChiTietMuonTraSach());
+        }
     }
 }
