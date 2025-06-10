@@ -108,5 +108,22 @@ namespace DAL_QuanLyThuVien
             object result = DButil.ScalarQuery(sql, new List<object> { email });
             return Convert.ToInt32(result) > 0;
         }
+        public bool CheckExists(string maKhachHang)
+        {
+            try
+            {
+                string sql = "SELECT COUNT(*) FROM dbo.KhachHang WHERE MaKhachHang = @0";
+                List<object> args = new List<object> { maKhachHang };
+                Console.WriteLine($"Executing SQL: {sql} with MaKhachHang = {maKhachHang}");
+                object result = DButil.ScalarQuery(sql, args);
+                Console.WriteLine($"Result: {result}");
+                return result != null && Convert.ToInt32(result) > 0;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Lỗi kiểm tra khách hàng: {ex.Message}");
+                throw;
+            }
+        }
     }
 }
