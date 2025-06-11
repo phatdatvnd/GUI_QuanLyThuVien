@@ -67,5 +67,10 @@ namespace GUI_QuanLyThuVien
         {
             openChilForm(new frmChiTietMuonTraSach());
         }
+
+        private void btDoiMatKhau_Click(object sender, EventArgs e)
+        {
+            openChilForm(new frmdoimk());
+        }
     }
 }

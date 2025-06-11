@@ -82,6 +82,7 @@
             btDoiMatKhau.Size = new Size(158, 42);
             btDoiMatKhau.TabIndex = 12;
             btDoiMatKhau.Text = "Đổi mật khẩu";
+            btDoiMatKhau.Click += btDoiMatKhau_Click;
             // 
             // btThongKeDoanhThu
             // 

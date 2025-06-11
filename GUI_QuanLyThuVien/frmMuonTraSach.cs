@@ -22,6 +22,12 @@ namespace GUI_QuanLyThuVien
         private void LoadData()
         {
             dgvQuanLyMuonTraSach.DataSource = bus.GetAllMuonTra();
+            dgvQuanLyMuonTraSach.ColumnHeadersHeight = 30;
+            dgvQuanLyMuonTraSach.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+
+            // Điều chỉnh kích thước cột
+            dgvQuanLyMuonTraSach.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
+            dgvQuanLyMuonTraSach.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
         }
 
         private MuonTraSach GetFormData()

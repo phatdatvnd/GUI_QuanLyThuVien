@@ -113,7 +113,7 @@ namespace GUI_QuanLyThuVien
                 SoDienThoai = txtSoDienThoai.Text,
                 VaiTro = rdbtquanly.Checked,
                 TrangThai = rdbthoatdong.Checked,
-                NgayTao = DateTime.Now 
+                NgayTao = DateTime.Now
             };
 
             string result = bus.UpdateNhanVien(nv);
@@ -231,6 +231,7 @@ namespace GUI_QuanLyThuVien
                 }
             }
         }
-        
+
+     
     }
 }

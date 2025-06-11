@@ -84,12 +84,13 @@
             // dtNgayTao
             // 
             dtNgayTao.AutoRoundedCorners = true;
+            dtNgayTao.BackColor = Color.Transparent;
             dtNgayTao.BorderRadius = 16;
             dtNgayTao.Checked = true;
             dtNgayTao.CustomizableEdges = customizableEdges1;
             dtNgayTao.Font = new Font("Segoe UI", 9F);
             dtNgayTao.Format = DateTimePickerFormat.Long;
-            dtNgayTao.Location = new Point(477, 158);
+            dtNgayTao.Location = new Point(429, 158);
             dtNgayTao.Margin = new Padding(3, 2, 3, 2);
             dtNgayTao.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
             dtNgayTao.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
@@ -104,7 +105,7 @@
             guna2HtmlLabel4.BackColor = Color.Transparent;
             guna2HtmlLabel4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             guna2HtmlLabel4.ForeColor = SystemColors.ControlText;
-            guna2HtmlLabel4.Location = new Point(369, 158);
+            guna2HtmlLabel4.Location = new Point(357, 158);
             guna2HtmlLabel4.Margin = new Padding(3, 2, 3, 2);
             guna2HtmlLabel4.Name = "guna2HtmlLabel4";
             guna2HtmlLabel4.Size = new Size(66, 23);
@@ -114,6 +115,7 @@
             // txtMaSach
             // 
             txtMaSach.AutoRoundedCorners = true;
+            txtMaSach.BackColor = Color.Transparent;
             txtMaSach.BorderRadius = 16;
             txtMaSach.CustomizableEdges = customizableEdges3;
             txtMaSach.DefaultText = "";
@@ -136,12 +138,12 @@
             // guna2HtmlLabel2
             // 
             guna2HtmlLabel2.BackColor = Color.Transparent;
-            guna2HtmlLabel2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            guna2HtmlLabel2.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             guna2HtmlLabel2.ForeColor = SystemColors.ControlText;
             guna2HtmlLabel2.Location = new Point(672, 64);
             guna2HtmlLabel2.Margin = new Padding(3, 2, 3, 2);
             guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            guna2HtmlLabel2.Size = new Size(60, 23);
+            guna2HtmlLabel2.Size = new Size(65, 23);
             guna2HtmlLabel2.TabIndex = 73;
             guna2HtmlLabel2.Text = "Mã sách";
             // 
@@ -160,42 +162,43 @@
             // lblSoDienThoai
             // 
             lblSoDienThoai.BackColor = Color.Transparent;
-            lblSoDienThoai.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblSoDienThoai.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             lblSoDienThoai.ForeColor = SystemColors.ControlText;
             lblSoDienThoai.Location = new Point(621, 112);
             lblSoDienThoai.Margin = new Padding(3, 2, 3, 2);
             lblSoDienThoai.Name = "lblSoDienThoai";
-            lblSoDienThoai.Size = new Size(66, 23);
+            lblSoDienThoai.Size = new Size(72, 23);
             lblSoDienThoai.TabIndex = 46;
             lblSoDienThoai.Text = "Số lượng";
             // 
             // lblHoVaTen
             // 
             lblHoVaTen.BackColor = Color.Transparent;
-            lblHoVaTen.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblHoVaTen.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             lblHoVaTen.ForeColor = SystemColors.ControlText;
             lblHoVaTen.Location = new Point(112, 112);
             lblHoVaTen.Margin = new Padding(3, 2, 3, 2);
             lblHoVaTen.Name = "lblHoVaTen";
-            lblHoVaTen.Size = new Size(94, 23);
+            lblHoVaTen.Size = new Size(102, 23);
             lblHoVaTen.TabIndex = 44;
             lblHoVaTen.Text = "Mã mượn trả";
             // 
             // lblMaChiTiet
             // 
             lblMaChiTiet.BackColor = Color.Transparent;
-            lblMaChiTiet.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblMaChiTiet.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             lblMaChiTiet.ForeColor = SystemColors.ControlText;
             lblMaChiTiet.Location = new Point(112, 64);
             lblMaChiTiet.Margin = new Padding(3, 2, 3, 2);
             lblMaChiTiet.Name = "lblMaChiTiet";
-            lblMaChiTiet.Size = new Size(75, 23);
+            lblMaChiTiet.Size = new Size(84, 23);
             lblMaChiTiet.TabIndex = 43;
             lblMaChiTiet.Text = "Mã chi tiết";
             // 
             // btTimKiem
             // 
             btTimKiem.AutoRoundedCorners = true;
+            btTimKiem.BackColor = Color.Transparent;
             btTimKiem.BorderRadius = 16;
             btTimKiem.CustomizableEdges = customizableEdges5;
             btTimKiem.DisabledState.BorderColor = Color.DarkGray;
@@ -217,6 +220,7 @@
             // txtTimKiem
             // 
             txtTimKiem.AutoRoundedCorners = true;
+            txtTimKiem.BackColor = Color.Transparent;
             txtTimKiem.BorderRadius = 16;
             txtTimKiem.CustomizableEdges = customizableEdges7;
             txtTimKiem.DefaultText = "Nhập văn bản...";
@@ -240,6 +244,7 @@
             // btThemNhanVien
             // 
             btThemNhanVien.AutoRoundedCorners = true;
+            btThemNhanVien.BackColor = Color.Transparent;
             btThemNhanVien.BorderRadius = 13;
             btThemNhanVien.CustomizableEdges = customizableEdges9;
             btThemNhanVien.DisabledState.BorderColor = Color.DarkGray;
@@ -262,6 +267,7 @@
             // btSuaMuonTra
             // 
             btSuaMuonTra.AutoRoundedCorners = true;
+            btSuaMuonTra.BackColor = Color.Transparent;
             btSuaMuonTra.BorderRadius = 13;
             btSuaMuonTra.CustomizableEdges = customizableEdges11;
             btSuaMuonTra.DisabledState.BorderColor = Color.DarkGray;
@@ -284,6 +290,7 @@
             // btLamMoiBang
             // 
             btLamMoiBang.AutoRoundedCorners = true;
+            btLamMoiBang.BackColor = Color.Transparent;
             btLamMoiBang.BorderRadius = 13;
             btLamMoiBang.CustomizableEdges = customizableEdges13;
             btLamMoiBang.DisabledState.BorderColor = Color.DarkGray;
@@ -307,6 +314,7 @@
             // btXoaMuonTra
             // 
             btXoaMuonTra.AutoRoundedCorners = true;
+            btXoaMuonTra.BackColor = Color.Transparent;
             btXoaMuonTra.BorderRadius = 13;
             btXoaMuonTra.CustomizableEdges = customizableEdges15;
             btXoaMuonTra.DisabledState.BorderColor = Color.DarkGray;
@@ -330,6 +338,7 @@
             // txtMaMuonTra
             // 
             txtMaMuonTra.AutoRoundedCorners = true;
+            txtMaMuonTra.BackColor = Color.Transparent;
             txtMaMuonTra.BorderRadius = 16;
             txtMaMuonTra.CustomizableEdges = customizableEdges17;
             txtMaMuonTra.DefaultText = "";
@@ -406,6 +415,7 @@
             // txtMaChiTiet
             // 
             txtMaChiTiet.AutoRoundedCorners = true;
+            txtMaChiTiet.BackColor = Color.Transparent;
             txtMaChiTiet.BorderRadius = 16;
             txtMaChiTiet.CustomizableEdges = customizableEdges19;
             txtMaChiTiet.DefaultText = "";
@@ -459,6 +469,7 @@
             // txtSoLuong
             // 
             txtSoLuong.AutoRoundedCorners = true;
+            txtSoLuong.BackColor = Color.Transparent;
             txtSoLuong.BorderRadius = 16;
             txtSoLuong.CustomizableEdges = customizableEdges21;
             txtSoLuong.DefaultText = "";

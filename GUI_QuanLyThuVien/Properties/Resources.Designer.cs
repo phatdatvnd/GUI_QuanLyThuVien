@@ -83,6 +83,36 @@ namespace GUI_QuanLyThuVien.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BANNERTHUVIEN {
+            get {
+                object obj = ResourceManager.GetObject("BANNERTHUVIEN", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Colorful_Illustration_Physicology_Class_Intro_Video {
+            get {
+                object obj = ResourceManager.GetObject("Colorful Illustration Physicology Class Intro Video", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Colorful_Illustration_Physicology_Class_Intro_Video__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Colorful Illustration Physicology Class Intro Video (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Colorful_Vintage_Elegant_Library_Furniture_Animated_Illustration_Presentation_ {
             get {
                 object obj = ResourceManager.GetObject("Colorful Vintage Elegant Library Furniture Animated Illustration Presentation ", resourceCulture);
@@ -186,6 +216,26 @@ namespace GUI_QuanLyThuVien.Properties {
         internal static System.Drawing.Bitmap Screenshot_2025_05_23_164216 {
             get {
                 object obj = ResourceManager.GetObject("Screenshot 2025-05-23 164216", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap THUVIEN {
+            get {
+                object obj = ResourceManager.GetObject("THUVIEN", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap thuvien1 {
+            get {
+                object obj = ResourceManager.GetObject("thuvien1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

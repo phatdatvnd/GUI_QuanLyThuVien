@@ -127,11 +127,17 @@
   <data name="hinhnenthuvien2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hinhnenthuvien2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Colorful Illustration Physicology Class Intro Video" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Colorful Illustration Physicology Class Intro Video.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="iconuser1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconuser1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner-gallery1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\banner-gallery1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="iconuser" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconuser.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,22 +148,34 @@
   <data name="istockphoto-1179573547-1024x1024" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\istockphoto-1179573547-1024x1024.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="thuvien1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thuvien1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Colorful Illustration Physicology Class Intro Video (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Colorful Illustration Physicology Class Intro Video (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Colorful Vintage Elegant Library Furniture Animated Illustration Presentation " type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Colorful Vintage Elegant Library Furniture Animated Illustration Presentation .jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logo1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="banner-gallery1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\banner-gallery1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="hinhnenmainchinh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hinhnenmainchinh.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Screenshot 2025-05-23 162244" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Screenshot 2025-05-23 162244.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="THUVIEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\THUVIEN.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Screenshot 2025-05-23 164216" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Screenshot 2025-05-23 164216.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="hinhnenmainchinh" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hinhnenmainchinh.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="BANNERTHUVIEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BANNERTHUVIEN.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="THUVIEN1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\THUVIEN2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

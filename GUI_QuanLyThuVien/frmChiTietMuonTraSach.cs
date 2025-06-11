@@ -26,6 +26,7 @@ namespace GUI_QuanLyThuVien
             dgvChiTietMuonTra.DataSource = busChiTietMuon.LayTatCaChiTiet();
             dgvChiTietMuonTra.ClearSelection();
             ClearFormInputs();
+
         }
 
         // Cấu hình ban đầu cho các controls
@@ -40,6 +41,13 @@ namespace GUI_QuanLyThuVien
             dgvChiTietMuonTra.Columns["MaSach"].HeaderText = "Mã Sách";
             dgvChiTietMuonTra.Columns["SoLuong"].HeaderText = "Số Lượng";
             dgvChiTietMuonTra.Columns["NgayTao"].HeaderText = "Ngày Tạo";
+            // Tăng chiều cao của header
+            dgvChiTietMuonTra.ColumnHeadersHeight = 30;
+            dgvChiTietMuonTra.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+
+            // Điều chỉnh kích thước cột
+            dgvChiTietMuonTra.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
+            dgvChiTietMuonTra.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
         }
 
         // Xóa trắng các ô nhập liệu

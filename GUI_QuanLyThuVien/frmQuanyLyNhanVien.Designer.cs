@@ -136,48 +136,48 @@
             // lblMatKhau
             // 
             lblMatKhau.BackColor = Color.Transparent;
-            lblMatKhau.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblMatKhau.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             lblMatKhau.ForeColor = SystemColors.ControlText;
-            lblMatKhau.Location = new Point(166, 181);
+            lblMatKhau.Location = new Point(167, 179);
             lblMatKhau.Margin = new Padding(3, 2, 3, 2);
             lblMatKhau.Name = "lblMatKhau";
-            lblMatKhau.Size = new Size(68, 23);
+            lblMatKhau.Size = new Size(75, 23);
             lblMatKhau.TabIndex = 47;
             lblMatKhau.Text = "Mật khẩu";
             // 
             // lblSoDienThoai
             // 
             lblSoDienThoai.BackColor = Color.Transparent;
-            lblSoDienThoai.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblSoDienThoai.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             lblSoDienThoai.ForeColor = SystemColors.ControlText;
-            lblSoDienThoai.Location = new Point(166, 242);
+            lblSoDienThoai.Location = new Point(166, 239);
             lblSoDienThoai.Margin = new Padding(3, 2, 3, 2);
             lblSoDienThoai.Name = "lblSoDienThoai";
-            lblSoDienThoai.Size = new Size(94, 23);
+            lblSoDienThoai.Size = new Size(104, 23);
             lblSoDienThoai.TabIndex = 46;
             lblSoDienThoai.Text = "Số điện thoại";
             // 
             // lblVaiTro
             // 
             lblVaiTro.BackColor = Color.Transparent;
-            lblVaiTro.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblVaiTro.ForeColor = SystemColors.ActiveCaptionText;
+            lblVaiTro.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            lblVaiTro.ForeColor = SystemColors.ButtonHighlight;
             lblVaiTro.Location = new Point(550, 126);
             lblVaiTro.Margin = new Padding(3, 2, 3, 2);
             lblVaiTro.Name = "lblVaiTro";
-            lblVaiTro.Size = new Size(49, 23);
+            lblVaiTro.Size = new Size(54, 23);
             lblVaiTro.TabIndex = 48;
             lblVaiTro.Text = "Vai trò";
             // 
             // lblEmail
             // 
             lblEmail.BackColor = Color.Transparent;
-            lblEmail.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblEmail.ForeColor = SystemColors.ActiveCaptionText;
-            lblEmail.Location = new Point(550, 70);
+            lblEmail.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            lblEmail.ForeColor = SystemColors.ButtonHighlight;
+            lblEmail.Location = new Point(545, 70);
             lblEmail.Margin = new Padding(3, 2, 3, 2);
             lblEmail.Name = "lblEmail";
-            lblEmail.Size = new Size(41, 23);
+            lblEmail.Size = new Size(46, 23);
             lblEmail.TabIndex = 45;
             lblEmail.Text = "Email";
             // 
@@ -206,24 +206,24 @@
             // lblTrangThai
             // 
             lblTrangThai.BackColor = Color.Transparent;
-            lblTrangThai.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblTrangThai.ForeColor = SystemColors.ActiveCaptionText;
+            lblTrangThai.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            lblTrangThai.ForeColor = SystemColors.ButtonHighlight;
             lblTrangThai.Location = new Point(550, 181);
             lblTrangThai.Margin = new Padding(3, 2, 3, 2);
             lblTrangThai.Name = "lblTrangThai";
-            lblTrangThai.Size = new Size(73, 23);
+            lblTrangThai.Size = new Size(81, 23);
             lblTrangThai.TabIndex = 49;
             lblTrangThai.Text = "Trạng thái";
             // 
             // lblHoVaTen
             // 
             lblHoVaTen.BackColor = Color.Transparent;
-            lblHoVaTen.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblHoVaTen.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             lblHoVaTen.ForeColor = SystemColors.ControlText;
-            lblHoVaTen.Location = new Point(166, 124);
+            lblHoVaTen.Location = new Point(167, 122);
             lblHoVaTen.Margin = new Padding(3, 2, 3, 2);
             lblHoVaTen.Name = "lblHoVaTen";
-            lblHoVaTen.Size = new Size(69, 23);
+            lblHoVaTen.Size = new Size(76, 23);
             lblHoVaTen.TabIndex = 44;
             lblHoVaTen.Text = "Họ và tên";
             // 
@@ -252,24 +252,24 @@
             // lblNgayTao
             // 
             lblNgayTao.BackColor = Color.Transparent;
-            lblNgayTao.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblNgayTao.ForeColor = SystemColors.ActiveCaptionText;
-            lblNgayTao.Location = new Point(550, 242);
+            lblNgayTao.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            lblNgayTao.ForeColor = SystemColors.ButtonHighlight;
+            lblNgayTao.Location = new Point(550, 239);
             lblNgayTao.Margin = new Padding(3, 2, 3, 2);
             lblNgayTao.Name = "lblNgayTao";
-            lblNgayTao.Size = new Size(66, 23);
+            lblNgayTao.Size = new Size(73, 23);
             lblNgayTao.TabIndex = 50;
             lblNgayTao.Text = "Ngày tạo";
             // 
             // lblMaNhanVien
             // 
             lblMaNhanVien.BackColor = Color.Transparent;
-            lblMaNhanVien.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblMaNhanVien.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             lblMaNhanVien.ForeColor = SystemColors.ControlText;
-            lblMaNhanVien.Location = new Point(166, 70);
+            lblMaNhanVien.Location = new Point(163, 67);
             lblMaNhanVien.Margin = new Padding(3, 2, 3, 2);
             lblMaNhanVien.Name = "lblMaNhanVien";
-            lblMaNhanVien.Size = new Size(97, 23);
+            lblMaNhanVien.Size = new Size(107, 23);
             lblMaNhanVien.TabIndex = 43;
             lblMaNhanVien.Text = "Mã nhân viên";
             // 
@@ -369,11 +369,12 @@
             guna2GradientPanel1.Controls.Add(txtSoDienThoai);
             guna2GradientPanel1.Controls.Add(txtMaNhanVien);
             guna2GradientPanel1.CustomizableEdges = customizableEdges27;
-            guna2GradientPanel1.Location = new Point(0, -4);
+            guna2GradientPanel1.Dock = DockStyle.Fill;
+            guna2GradientPanel1.Location = new Point(0, 0);
             guna2GradientPanel1.Margin = new Padding(3, 2, 3, 2);
             guna2GradientPanel1.Name = "guna2GradientPanel1";
             guna2GradientPanel1.ShadowDecoration.CustomizableEdges = customizableEdges28;
-            guna2GradientPanel1.Size = new Size(1081, 688);
+            guna2GradientPanel1.Size = new Size(1081, 680);
             guna2GradientPanel1.TabIndex = 11;
             // 
             // panel2

@@ -136,7 +136,7 @@
             // 
             lblMatKhau.BackColor = Color.Transparent;
             lblMatKhau.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblMatKhau.ForeColor = SystemColors.ControlLightLight;
+            lblMatKhau.ForeColor = Color.Black;
             lblMatKhau.Location = new Point(167, 175);
             lblMatKhau.Margin = new Padding(3, 2, 3, 2);
             lblMatKhau.Name = "lblMatKhau";
@@ -148,7 +148,7 @@
             // 
             lblSoDienThoai.BackColor = Color.Transparent;
             lblSoDienThoai.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblSoDienThoai.ForeColor = SystemColors.ControlLightLight;
+            lblSoDienThoai.ForeColor = Color.Black;
             lblSoDienThoai.Location = new Point(167, 236);
             lblSoDienThoai.Margin = new Padding(3, 2, 3, 2);
             lblSoDienThoai.Name = "lblSoDienThoai";
@@ -182,7 +182,7 @@
             // 
             lblVaiTro.BackColor = Color.Transparent;
             lblVaiTro.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblVaiTro.ForeColor = SystemColors.ControlLightLight;
+            lblVaiTro.ForeColor = Color.Black;
             lblVaiTro.Location = new Point(551, 120);
             lblVaiTro.Margin = new Padding(3, 2, 3, 2);
             lblVaiTro.Name = "lblVaiTro";
@@ -194,7 +194,7 @@
             // 
             lblEmail.BackColor = Color.Transparent;
             lblEmail.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblEmail.ForeColor = SystemColors.ControlLightLight;
+            lblEmail.ForeColor = Color.Black;
             lblEmail.Location = new Point(551, 64);
             lblEmail.Margin = new Padding(3, 2, 3, 2);
             lblEmail.Name = "lblEmail";
@@ -228,7 +228,7 @@
             // 
             lblTrangThai.BackColor = Color.Transparent;
             lblTrangThai.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblTrangThai.ForeColor = SystemColors.ControlLightLight;
+            lblTrangThai.ForeColor = Color.Black;
             lblTrangThai.Location = new Point(551, 175);
             lblTrangThai.Margin = new Padding(3, 2, 3, 2);
             lblTrangThai.Name = "lblTrangThai";
@@ -240,7 +240,7 @@
             // 
             lblHoVaTen.BackColor = Color.Transparent;
             lblHoVaTen.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblHoVaTen.ForeColor = SystemColors.ControlLightLight;
+            lblHoVaTen.ForeColor = Color.Black;
             lblHoVaTen.Location = new Point(167, 118);
             lblHoVaTen.Margin = new Padding(3, 2, 3, 2);
             lblHoVaTen.Name = "lblHoVaTen";
@@ -274,7 +274,7 @@
             // 
             lblNgayTao.BackColor = Color.Transparent;
             lblNgayTao.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblNgayTao.ForeColor = SystemColors.ControlLightLight;
+            lblNgayTao.ForeColor = Color.Black;
             lblNgayTao.Location = new Point(551, 236);
             lblNgayTao.Margin = new Padding(3, 2, 3, 2);
             lblNgayTao.Name = "lblNgayTao";
@@ -286,7 +286,7 @@
             // 
             lblMaNhanVien.BackColor = Color.Transparent;
             lblMaNhanVien.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblMaNhanVien.ForeColor = SystemColors.ControlLightLight;
+            lblMaNhanVien.ForeColor = Color.Black;
             lblMaNhanVien.Location = new Point(167, 64);
             lblMaNhanVien.Margin = new Padding(3, 2, 3, 2);
             lblMaNhanVien.Name = "lblMaNhanVien";
@@ -390,6 +390,7 @@
             guna2GradientPanel1.Controls.Add(txtmatacgia);
             guna2GradientPanel1.Controls.Add(txtmasach);
             guna2GradientPanel1.CustomizableEdges = customizableEdges29;
+            guna2GradientPanel1.ForeColor = Color.Black;
             guna2GradientPanel1.Location = new Point(-2, -3);
             guna2GradientPanel1.Margin = new Padding(3, 2, 3, 2);
             guna2GradientPanel1.Name = "guna2GradientPanel1";
