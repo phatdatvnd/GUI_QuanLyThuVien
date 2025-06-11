@@ -50,7 +50,7 @@ namespace DAL_QuanLyThuVien
             DButil.Update(sql, new List<object> { maKH });
         }
 
-        public KhachHang? SelectById(string maKH)
+        public KhachHang SelectById(string maKH)
         {
             string sql = "SELECT * FROM KhachHang WHERE MaKhachHang = @0";
             List<object> args = new List<object> { maKH };

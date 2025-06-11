@@ -6,6 +6,8 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DAL_QuanLyThuVien;
+using DTO_QuanLyThuVien;
 
 namespace DAL_QuanLyThuVien
 {
@@ -35,6 +37,7 @@ namespace DAL_QuanLyThuVien
             reader.Close();
             return ds;
         }
+
 
         public void ThemSach(Sach s)
         {

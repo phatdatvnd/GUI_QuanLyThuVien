@@ -11,7 +11,7 @@ namespace DAL_QuanLyThuVien
 {
     public class DButil
     {
-        private static string connString = "Data Source=LAPTOPCUAPHAT\\SQLEXPRESS01;Initial Catalog=Xuong_QuanLyThuVien;Integrated Security=True;Trust Server Certificate=True";
+        private static string connString = @"Data Source=HelloWorld;Initial Catalog=Xuong_QuanLyThuVien;Integrated Security=True;Encrypt=True;Trust Server Certificate=True";
 
         /// <summary> Xây dựng SqlCommand </summary>
         public static SqlCommand GetCommand(string sql, List<object> args, CommandType cmdType)
