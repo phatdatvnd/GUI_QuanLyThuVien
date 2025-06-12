@@ -121,7 +121,7 @@
   <data name="guna2GradientPanel1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAABQAAAALQCAYAAADPfd1WAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vgAADr4B6kKxwAAA/7JJREFUeF7s/eWTHFm27YvW//U+vk/X3rVn1+67cOyccw/tvc+m7t5NVSVWSkrm
+        vQAADr0BR/uQrQAA/7JJREFUeF7s/eWTHFm27YvW//U+vk/X3rVn1+67cOyccw/tvc+m7t5NVSVWSkrm
         DOZkJinFyhQzM0NKKeYUq6q693g2Jrh7ZlRDVVNBuNm0iPTwcF++3GNJ6+djzPnJ9Ggee9d34eCmPomd
         40Vs7k/+1WNjbxyTpVZMFFp+Z0wWW2W7xd/9W8aBjb1B331dHNrUh7MHN+LKuf04eGQSY8OrcHhPP6YH
         W9HT/D+RXv2/o7P5f2D7SBt2jsexa6wd+zcXsWW0DqXW/4gT+wZxZO8gRoaWI1n9v2BqtBF7NnVh+2Ar
@@ -7481,5 +7481,8 @@
   </data>
   <metadata name="guna2Elipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
   </metadata>
 </root>

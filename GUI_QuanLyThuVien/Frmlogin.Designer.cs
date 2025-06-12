@@ -72,8 +72,9 @@
             pictureBox1.Dock = DockStyle.Left;
             pictureBox1.Image = Properties.Resources.Screenshot_2025_05_23_162244;
             pictureBox1.Location = new Point(0, 0);
+            pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(452, 519);
+            pictureBox1.Size = new Size(517, 692);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -91,13 +92,13 @@
             txtnguoidung.Font = new Font("Segoe UI", 9F);
             txtnguoidung.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             txtnguoidung.IconLeft = Properties.Resources.iconuser;
-            txtnguoidung.Location = new Point(559, 188);
+            txtnguoidung.Location = new Point(639, 251);
+            txtnguoidung.Margin = new Padding(3, 5, 3, 5);
             txtnguoidung.Name = "txtnguoidung";
-            txtnguoidung.PasswordChar = '\0';
             txtnguoidung.PlaceholderText = "Username";
             txtnguoidung.SelectedText = "";
             txtnguoidung.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            txtnguoidung.Size = new Size(337, 47);
+            txtnguoidung.Size = new Size(385, 63);
             txtnguoidung.TabIndex = 1;
             // 
             // txtmatkhau
@@ -113,13 +114,13 @@
             txtmatkhau.Font = new Font("Segoe UI", 9F);
             txtmatkhau.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             txtmatkhau.IconLeft = (Image)resources.GetObject("txtmatkhau.IconLeft");
-            txtmatkhau.Location = new Point(559, 267);
+            txtmatkhau.Location = new Point(639, 356);
+            txtmatkhau.Margin = new Padding(3, 5, 3, 5);
             txtmatkhau.Name = "txtmatkhau";
-            txtmatkhau.PasswordChar = '\0';
             txtmatkhau.PlaceholderText = "Password";
             txtmatkhau.SelectedText = "";
             txtmatkhau.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            txtmatkhau.Size = new Size(337, 47);
+            txtmatkhau.Size = new Size(385, 63);
             txtmatkhau.TabIndex = 2;
             // 
             // bamhienmatkhau
@@ -129,10 +130,11 @@
             bamhienmatkhau.CheckedState.InnerBorderColor = Color.White;
             bamhienmatkhau.CheckedState.InnerColor = Color.White;
             bamhienmatkhau.CustomizableEdges = customizableEdges5;
-            bamhienmatkhau.Location = new Point(559, 320);
+            bamhienmatkhau.Location = new Point(639, 427);
+            bamhienmatkhau.Margin = new Padding(3, 4, 3, 4);
             bamhienmatkhau.Name = "bamhienmatkhau";
             bamhienmatkhau.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            bamhienmatkhau.Size = new Size(51, 17);
+            bamhienmatkhau.Size = new Size(58, 23);
             bamhienmatkhau.TabIndex = 3;
             bamhienmatkhau.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
             bamhienmatkhau.UncheckedState.FillColor = Color.FromArgb(125, 137, 149);
@@ -143,9 +145,10 @@
             // guna2HtmlLabel1
             // 
             guna2HtmlLabel1.BackColor = Color.Transparent;
-            guna2HtmlLabel1.Location = new Point(616, 320);
+            guna2HtmlLabel1.Location = new Point(704, 427);
+            guna2HtmlLabel1.Margin = new Padding(3, 4, 3, 4);
             guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            guna2HtmlLabel1.Size = new Size(81, 17);
+            guna2HtmlLabel1.Size = new Size(99, 22);
             guna2HtmlLabel1.TabIndex = 4;
             guna2HtmlLabel1.Text = "Hiện mật khẩu";
             // 
@@ -160,10 +163,11 @@
             btndangnhap.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             btndangnhap.Font = new Font("Times New Roman", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btndangnhap.ForeColor = Color.White;
-            btndangnhap.Location = new Point(559, 352);
+            btndangnhap.Location = new Point(639, 469);
+            btndangnhap.Margin = new Padding(3, 4, 3, 4);
             btndangnhap.Name = "btndangnhap";
             btndangnhap.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            btndangnhap.Size = new Size(337, 45);
+            btndangnhap.Size = new Size(385, 60);
             btndangnhap.TabIndex = 5;
             btndangnhap.Text = "Đăng nhập";
             btndangnhap.Click += btndangnhap_Click;
@@ -179,10 +183,11 @@
             btnthoat.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             btnthoat.Font = new Font("Times New Roman", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnthoat.ForeColor = Color.White;
-            btnthoat.Location = new Point(559, 412);
+            btnthoat.Location = new Point(639, 549);
+            btnthoat.Margin = new Padding(3, 4, 3, 4);
             btnthoat.Name = "btnthoat";
             btnthoat.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            btnthoat.Size = new Size(337, 45);
+            btnthoat.Size = new Size(385, 60);
             btnthoat.TabIndex = 6;
             btnthoat.Text = "Thoát";
             btnthoat.Click += btnthoat_Click;
@@ -191,9 +196,9 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI Black", 20F);
-            label1.Location = new Point(632, 110);
+            label1.Location = new Point(722, 147);
             label1.Name = "label1";
-            label1.Size = new Size(189, 37);
+            label1.Size = new Size(237, 46);
             label1.TabIndex = 7;
             label1.Text = "ĐĂNG NHẬP";
             // 
@@ -201,9 +206,10 @@
             // 
             pictureBox2.BackgroundImage = Properties.Resources.logo;
             pictureBox2.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox2.Location = new Point(905, 12);
+            pictureBox2.Location = new Point(1034, 16);
+            pictureBox2.Margin = new Padding(3, 4, 3, 4);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(62, 59);
+            pictureBox2.Size = new Size(71, 79);
             pictureBox2.TabIndex = 8;
             pictureBox2.TabStop = false;
             // 
@@ -218,10 +224,10 @@
             // 
             // Frmlogin
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
-            ClientSize = new Size(974, 519);
+            ClientSize = new Size(1113, 692);
             Controls.Add(pictureBox2);
             Controls.Add(label1);
             Controls.Add(btnthoat);
@@ -232,8 +238,9 @@
             Controls.Add(txtnguoidung);
             Controls.Add(pictureBox1);
             FormBorderStyle = FormBorderStyle.None;
-            MaximumSize = new Size(974, 519);
-            MinimumSize = new Size(974, 519);
+            Margin = new Padding(3, 4, 3, 4);
+            MaximumSize = new Size(1113, 692);
+            MinimumSize = new Size(1113, 692);
             Name = "Frmlogin";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "x`";

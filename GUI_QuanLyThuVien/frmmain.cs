@@ -72,5 +72,10 @@ namespace GUI_QuanLyThuVien
         {
             openChilForm(new frmdoimk());
         }
+
+        private void btQuanLyThanhToan_Click(object sender, EventArgs e)
+        {
+            openChilForm(new frmThanhToan());
+        }
     }
 }
